@@ -22,10 +22,10 @@
             if(peso < 29.9) {
                 puts("Sobrepeso");
             } else {
-                if(peso > 34.9) {
+                if(peso < 34.9) {
                     puts("Obesidade CLasse I");
             } else {
-                if(peso > 39.9) {
+                if(peso < 39.9) {
                     puts("Obesidade Classe II");
                 } else {
                     if(peso > 40) {
@@ -35,8 +35,9 @@
         }
     }
 }
-    
-    
+}
+
+
     
     return 0;
-}   
+ }
