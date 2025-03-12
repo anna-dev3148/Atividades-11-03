@@ -9,21 +9,25 @@ int main() {
     if(nota >=9) {
         puts("A");
     } else {
-        if(nota >= 7) {
+        if(nota >= 8) {
             puts("B");
         } else {
-            if(nota >= 6) {
-                puts("D");
+            if(nota >= 7) {
+                puts("C");
+            } else {
+                if(nota >= 6) {
+                    puts("D");
             } else {
                 puts("F");
             }
         }
     }
+}
     
     
     
-    
-
+    return 0;
+}
     
 
     return 0;
