@@ -13,22 +13,22 @@
      
      imc = peso / (altura*altura);
      
-     if(peso < 18.5) {
+     if(imc < 18.5) {
         puts("Baixo peso");
     } else {
-        if(peso <= 24.9 ) {
+        if(imc <= 24.9 ) {
             puts("Intervalo Normal");
         } else {
-            if(peso < 29.9) {
+            if(imc < 29.9) {
                 puts("Sobrepeso");
             } else {
-                if(peso < 34.9) {
+                if(imc < 34.9) {
                     puts("Obesidade CLasse I");
             } else {
-                if(peso < 39.9) {
+                if(imc < 39.9) {
                     puts("Obesidade Classe II");
                 } else {
-                    if(peso > 40) {
+                    if(imc > 40) {
                      puts("Obesidade Classe III");
                 }
             }
